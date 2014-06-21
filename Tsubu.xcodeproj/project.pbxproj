@@ -21,6 +21,11 @@
 		C1AA78CD194C0F0100704F69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AA78AF194C0F0100704F69 /* UIKit.framework */; };
 		C1AA78D5194C0F0100704F69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1AA78D3194C0F0100704F69 /* InfoPlist.strings */; };
 		C1AA78D7194C0F0100704F69 /* TsubuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA78D6194C0F0100704F69 /* TsubuTests.m */; };
+		C1AA78E2194C297500704F69 /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA78E1194C297500704F69 /* TimeLineTableViewController.m */; };
+		C1AA78E5194C2BDE00704F69 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA78E4194C2BDE00704F69 /* TimeLineCell.m */; };
+		C1AA78EB19541A1300704F69 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA78EA19541A1300704F69 /* DetailViewController.m */; };
+		C1AA78EE19541B9E00704F69 /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA78ED19541B9E00704F69 /* MyUIApplication.m */; };
+		C1AA78FD19553F6C00704F69 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AA78FC19553F6C00704F69 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		C1AA78D2194C0F0100704F69 /* TsubuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TsubuTests-Info.plist"; sourceTree = "<group>"; };
 		C1AA78D4194C0F0100704F69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1AA78D6194C0F0100704F69 /* TsubuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TsubuTests.m; sourceTree = "<group>"; };
+		C1AA78E0194C297500704F69 /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		C1AA78E1194C297500704F69 /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		C1AA78E3194C2BDE00704F69 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		C1AA78E4194C2BDE00704F69 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		C1AA78E919541A1300704F69 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C1AA78EA19541A1300704F69 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C1AA78EC19541B9E00704F69 /* MyUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIApplication.h; sourceTree = "<group>"; };
+		C1AA78ED19541B9E00704F69 /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIApplication.m; sourceTree = "<group>"; };
+		C1AA78FB19553F6C00704F69 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C1AA78FC19553F6C00704F69 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				C1AA78C1194C0F0100704F69 /* ViewController.m */,
 				C1AA78C3194C0F0100704F69 /* Images.xcassets */,
 				C1AA78B2194C0F0100704F69 /* Supporting Files */,
+				C1AA78E0194C297500704F69 /* TimeLineTableViewController.h */,
+				C1AA78E1194C297500704F69 /* TimeLineTableViewController.m */,
+				C1AA78E3194C2BDE00704F69 /* TimeLineCell.h */,
+				C1AA78E4194C2BDE00704F69 /* TimeLineCell.m */,
+				C1AA78E919541A1300704F69 /* DetailViewController.h */,
+				C1AA78EA19541A1300704F69 /* DetailViewController.m */,
+				C1AA78EC19541B9E00704F69 /* MyUIApplication.h */,
+				C1AA78ED19541B9E00704F69 /* MyUIApplication.m */,
+				C1AA78FB19553F6C00704F69 /* WebViewController.h */,
+				C1AA78FC19553F6C00704F69 /* WebViewController.m */,
 			);
 			path = Tsubu;
 			sourceTree = "<group>";
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AA78E5194C2BDE00704F69 /* TimeLineCell.m in Sources */,
 				C1AA78C2194C0F0100704F69 /* ViewController.m in Sources */,
 				C1AA78BC194C0F0100704F69 /* AppDelegate.m in Sources */,
+				C1AA78E2194C297500704F69 /* TimeLineTableViewController.m in Sources */,
+				C1AA78FD19553F6C00704F69 /* WebViewController.m in Sources */,
+				C1AA78EE19541B9E00704F69 /* MyUIApplication.m in Sources */,
 				C1AA78B8194C0F0100704F69 /* main.m in Sources */,
+				C1AA78EB19541A1300704F69 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 				C1AA78DC194C0F0100704F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1AA78DD194C0F0100704F69 /* Build configuration list for PBXNativeTarget "TsubuTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				C1AA78DF194C0F0100704F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

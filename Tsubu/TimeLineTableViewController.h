@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TimeLineTableViewController.h
 //  Tsubu
 //
 //  Created by 丸川大輝 on 2014/06/14.
@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimeLineCell.h"
 #import <Social/Social.h>
 #import <Accounts/Accounts.h>
-#import "TimeLineTableViewController.h"
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController <UIActionSheetDelegate>
 
+@interface TimeLineTableViewController : UITableViewController
+@property (nonatomic , copy) NSString *identifier;
 
 @end
