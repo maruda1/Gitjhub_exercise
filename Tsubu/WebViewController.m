@@ -30,8 +30,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.webView.delegate = self;
-    NSURLRequest *myReaquest = [NSURLRequest requestWithURL:self.openURL];
-    [self.webView loadRequest:myReaquest];
+    NSURLRequest *myRequest = [NSURLRequest requestWithURL:self.openURL];
+    [self.webView loadRequest:myRequest];
 }
 
 - (void)didReceiveMemoryWarning

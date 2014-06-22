@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B60C378-5C3E-4589-87FB-8480DEE95C7E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tsubu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>766B8A4A-F1C3-4022-AFAC-64CFA7D4F4D1</key>
+		<string>https://github.com/maruda1/Gitjhub_exercise.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tsubu.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>766B8A4A-F1C3-4022-AFAC-64CFA7D4F4D1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maruda1/Gitjhub_exercise.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>766B8A4A-F1C3-4022-AFAC-64CFA7D4F4D1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>766B8A4A-F1C3-4022-AFAC-64CFA7D4F4D1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tsubu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

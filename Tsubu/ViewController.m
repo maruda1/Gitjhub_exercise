@@ -58,7 +58,7 @@
 
 
 
-- (IBAction)tweetAction:(id)sender
+/*- (IBAction)tweetAction:(id)sender
 {//最小限のTweetコード
     if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) { //利用可能チェック
         NSString *serviceType = SLServiceTypeTwitter;
@@ -72,7 +72,7 @@
         [self presentViewController:composeCtl animated:YES completion:nil];
     }
 }
-
+*/
 - (IBAction)setAccountAction:(id)sender
 {
     UIActionSheet *sheet = [[UIActionSheet alloc] init];
@@ -105,11 +105,26 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"TimeLineSegue"]) {
+    if ([segue.identifier isEqualToString:@"timeLineSegue"]) {
         TimeLineTableViewController *timeLineTableViewController = segue.destinationViewController;
         if ([timeLineTableViewController isKindOfClass:[TimeLineTableViewController class]]) {
             timeLineTableViewController.identifier = self.identifier;
+            NSLog(@"identifier = %@", self.identifier);
         }
+    }
+}
+
+- (IBAction)tweet:(id)sender {
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]){
+        NSString *serviceType = SLServiceTypeTwitter;
+        SLComposeViewController *composeCtl =
+        [SLComposeViewController composeViewControllerForServiceType:serviceType];
+        [composeCtl setCompletionHandler:^(SLComposeViewControllerResult result){
+            if (result == SLComposeViewControllerResultDone){
+                
+            }
+        }];
+        [self presentViewController:composeCtl animated:YES completion:nil];
     }
 }
 

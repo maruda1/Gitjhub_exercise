@@ -7,8 +7,7 @@
 //
 
 #import "MyUIApplication.h"
-#import "AppDelegate.h"
-#import "WebViewController.h"
+
 
 @implementation MyUIApplication
 
